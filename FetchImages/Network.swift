@@ -27,7 +27,7 @@ class Network {
     }
   }
   
-  func fetchImage(url: URL, index: Int?, complitionHandler: @escaping (Result<(UIImage, Int?), Error>) -> Void) {
+  func fetchImage(url: URL, index: Int? = nil, complitionHandler: @escaping (Result<(UIImage, Int?), Error>) -> Void) {
     let task = urlSession.dataTask(with: url) { data, responce, error in
       if let error = error {
         complitionHandler(.failure(error))

@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E687F1B27CFBF9600AF8BA4 /* GCD_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCD_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E687F1B27CFBF9600AF8BA4 /* FetchImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E687F1E27CFBF9600AF8BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E687F2027CFBF9600AF8BA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3E687F2227CFBF9600AF8BA4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		3E687F1227CFBF9600AF8BA4 = {
 			isa = PBXGroup;
 			children = (
-				3E687F1D27CFBF9600AF8BA4 /* GCD_Test */,
+				3E687F1D27CFBF9600AF8BA4 /* FetchImages */,
 				3E687F1C27CFBF9600AF8BA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,15 +60,16 @@
 		3E687F1C27CFBF9600AF8BA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E687F1B27CFBF9600AF8BA4 /* GCD_Test.app */,
+				3E687F1B27CFBF9600AF8BA4 /* FetchImages.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E687F1D27CFBF9600AF8BA4 /* GCD_Test */ = {
+		3E687F1D27CFBF9600AF8BA4 /* FetchImages */ = {
 			isa = PBXGroup;
 			children = (
 				3E687F3B27CFD20D00AF8BA4 /* Network.swift */,
+				3E687F3227CFC0D900AF8BA4 /* TypesGCDWork.swift */,
 				3E687F3427CFC12600AF8BA4 /* Models */,
 				3E687F1E27CFBF9600AF8BA4 /* AppDelegate.swift */,
 				3E687F2027CFBF9600AF8BA4 /* SceneDelegate.swift */,
@@ -81,13 +82,12 @@
 				3E687F2927CFBF9700AF8BA4 /* LaunchScreen.storyboard */,
 				3E687F2C27CFBF9700AF8BA4 /* Info.plist */,
 			);
-			path = GCD_Test;
+			path = FetchImages;
 			sourceTree = "<group>";
 		};
 		3E687F3427CFC12600AF8BA4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3E687F3227CFC0D900AF8BA4 /* TypesGCDWork.swift */,
 				3E687F3527CFC14100AF8BA4 /* Images.swift */,
 			);
 			path = Models;
@@ -104,9 +104,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E687F1A27CFBF9600AF8BA4 /* GCD_Test */ = {
+		3E687F1A27CFBF9600AF8BA4 /* FetchImages */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E687F2F27CFBF9700AF8BA4 /* Build configuration list for PBXNativeTarget "GCD_Test" */;
+			buildConfigurationList = 3E687F2F27CFBF9700AF8BA4 /* Build configuration list for PBXNativeTarget "FetchImages" */;
 			buildPhases = (
 				3E687F1727CFBF9600AF8BA4 /* Sources */,
 				3E687F1827CFBF9600AF8BA4 /* Frameworks */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = GCD_Test;
+			name = FetchImages;
 			productName = GCD_Test;
-			productReference = 3E687F1B27CFBF9600AF8BA4 /* GCD_Test.app */;
+			productReference = 3E687F1B27CFBF9600AF8BA4 /* FetchImages.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E687F1627CFBF9600AF8BA4 /* Build configuration list for PBXProject "GCD_Test" */;
+			buildConfigurationList = 3E687F1627CFBF9600AF8BA4 /* Build configuration list for PBXProject "FetchImages" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E687F1A27CFBF9600AF8BA4 /* GCD_Test */,
+				3E687F1A27CFBF9600AF8BA4 /* FetchImages */,
 			);
 		};
 /* End PBXProject section */
@@ -331,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93B8RT383G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GCD_Test/Info.plist;
+				INFOPLIST_FILE = FetchImages/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = GCD;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -362,7 +362,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93B8RT383G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GCD_Test/Info.plist;
+				INFOPLIST_FILE = FetchImages/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = GCD;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -387,7 +387,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E687F1627CFBF9600AF8BA4 /* Build configuration list for PBXProject "GCD_Test" */ = {
+		3E687F1627CFBF9600AF8BA4 /* Build configuration list for PBXProject "FetchImages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E687F2D27CFBF9700AF8BA4 /* Debug */,
@@ -396,7 +396,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E687F2F27CFBF9700AF8BA4 /* Build configuration list for PBXNativeTarget "GCD_Test" */ = {
+		3E687F2F27CFBF9700AF8BA4 /* Build configuration list for PBXNativeTarget "FetchImages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E687F3027CFBF9700AF8BA4 /* Debug */,

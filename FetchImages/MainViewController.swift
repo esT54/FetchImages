@@ -12,7 +12,6 @@ class MainViewController: UIViewController {
   let tableView: UITableView = {
     let result = UITableView(frame: .zero, style: .plain)
     result.translatesAutoresizingMaskIntoConstraints = false
-//    result.backgroundColor = .secondarySystemBackground
     return result
   }()
   

@@ -17,7 +17,6 @@ class DonwloadViewController: UIViewController {
   let tableView: UITableView = {
     let result = UITableView(frame: .zero, style: .plain)
     result.translatesAutoresizingMaskIntoConstraints = false
-//    result.backgroundColor = .secondarySystemBackground
     return result
   }()
   
@@ -73,7 +72,7 @@ extension DonwloadViewController: UITableViewDataSource {
     let cell = tableView.dequeueReusableCell(withIdentifier: "imageCell",
                                              for: indexPath)
     if let cell = cell as? FlagCell, !images.isEmpty {
-        cell.image.image = images[indexPath.row]
+        cell.flagImage.image = images[indexPath.row]
       }
     return cell
   }
